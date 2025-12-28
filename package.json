@@ -1,6 +1,6 @@
 {
   "name": "htnn-js-toolkit",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "JavaScript 工具库",
   "main": "./lib/js-toolkit.cjs.js",
   "module": "./lib/js-toolkit.es.js",
@@ -25,7 +25,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/huitoutunao/htnn-js-toolkit.git"
+    "url": "https://github.com/huitoutunao/htnn-js-toolkit"
   },
   "devDependencies": {
     "prettier": "^3.7.4",

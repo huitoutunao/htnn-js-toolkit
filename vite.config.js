@@ -7,14 +7,14 @@ export default defineConfig({
       entry: ['src/index.js'],
       name: 'HtnnJsToolkit',
       formats: ['es', 'cjs', 'umd', 'iife'],
-      fileName: (format) => `js-toolkit.${format}.js`
+      fileName: (format) => `js-toolkit.${format}.js`,
     },
     minify: 'terser',
     terserOptions: {
       compress: {
         drop_console: true,
-      }
+      },
     },
     outDir: 'lib',
-  }
+  },
 })
