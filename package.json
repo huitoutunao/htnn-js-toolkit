@@ -1,6 +1,6 @@
 {
   "name": "htnn-js-toolkit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript 工具库",
   "main": "./lib/js-toolkit.cjs.js",
   "module": "./lib/js-toolkit.es.js",
