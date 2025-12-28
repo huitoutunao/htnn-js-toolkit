@@ -6,9 +6,18 @@
   <title>工具库测试</title>
 </head>
 <body>
-  <script src="./lib/js-toolkit.iife.js"></script>
-  <script>
-    console.log(HtnnJsToolkit.formatDate())
+  <!-- <script src="./lib/js-toolkit.iife.js"></script> -->
+  <!-- 引入工具库 npm run dev 调试 -->
+  <script type="module" src="./src/index.js"></script>
+  <script type="module">
+    import { formatDate } from './src/index.js';
+    try {
+      const nowDate = formatDate(1766908214000, 'YYYY-MM-DD');
+      console.log(nowDate)
+
+    } catch (e) {
+      console.log('测试出错', e)
+    }
   </script>
 </body>
 </html>

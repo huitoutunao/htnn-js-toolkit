@@ -5,13 +5,21 @@
   "main": "./lib/js-toolkit.cjs.js",
   "module": "./lib/js-toolkit.es.js",
   "browser": "./lib/js-toolkit.umd.js",
-  "files": ["lib", "src"],
+  "files": [
+    "lib",
+    "src"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --outDir ."
+    "preview": "vite preview --outDir .",
+    "test:dev": "vitest",
+    "test": "vitest run"
   },
-  "keywords": ["js", "toolkit"],
+  "keywords": [
+    "js",
+    "toolkit"
+  ],
   "author": "huitoutunao",
   "license": "MIT",
   "repository": {
@@ -20,6 +28,7 @@
   },
   "devDependencies": {
     "terser": "^5.44.1",
-    "vite": "^7.3.0"
+    "vite": "^7.3.0",
+    "vitest": "^4.0.16"
   }
 }

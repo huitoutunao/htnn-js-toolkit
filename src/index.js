@@ -1,9 +1,9 @@
 import { formatDate } from './utils/date.js'
 
+export { formatDate }
+
 if (typeof window !== 'undefined') {
-  window.Toolkit = {
+  window.HtnnJsToolkit = {
     formatDate,
   }
 }
-
-export { formatDate }
